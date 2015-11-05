@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonBot2.0", "PokemonBot2.0\PokemonBot2.0.csproj", "{88D2DAA4-D584-4887-B7C7-107C9DCA5550}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D8D3EC3A-5AF2-4A90-8209-D064899C445C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Users\anak4_000\Downloads\chromedriver_win32\chromedriver.exe = ..\..\..\Users\anak4_000\Downloads\chromedriver_win32\chromedriver.exe
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88D2DAA4-D584-4887-B7C7-107C9DCA5550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D2DAA4-D584-4887-B7C7-107C9DCA5550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D2DAA4-D584-4887-B7C7-107C9DCA5550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D2DAA4-D584-4887-B7C7-107C9DCA5550}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
