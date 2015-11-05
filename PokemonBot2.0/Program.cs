@@ -23,18 +23,7 @@ namespace PokemonBot2._0
             {
                 Console.WriteLine();
                 StartLoadAndFindOUGame();
-                WaitForMove();
-                foreach (PokemonEntry ghee in ScrapeYourTeam())
-                {
-                    Console.WriteLine(ghee);
-                    Thread.Sleep(200);
-                }
-                Console.WriteLine();
-                foreach (PokemonEntry ghee in ScrapeOppTeam())
-                {
-                    Console.WriteLine(ghee);
-                    Thread.Sleep(200);
-                }
+                GameLoop();
                 Console.ReadLine();
             }
         }
@@ -214,6 +203,7 @@ namespace PokemonBot2._0
             driver.FindElement(By.Name("format")).Click();
             driver.FindElement(By.XPath("(//button[@name='selectFormat'])[3]")).Click();
             driver.FindElement(By.Name("search")).Click();
+            WaitForMove();
         }
 
         static public void StartLoadAndFindOUGame()
@@ -243,6 +233,11 @@ namespace PokemonBot2._0
                 Thread.Sleep(1000);
             }
             Thread.Sleep(2000);
+        }
+
+        static public void GameLoop()
+        {
+
         }
     }
 }
