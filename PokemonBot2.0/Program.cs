@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PokemonBot2._0;
 using NUnit.Framework;
 using System.Threading;
 using OpenQA.Selenium;
@@ -23,14 +24,14 @@ namespace PokemonBot2._0
             {
                 Console.WriteLine();
                 StartLoadAndFindOUGame();
-                GameLoop();
+                SmeargleGameLoop();
                 Console.ReadLine();
             }
         }
 
-        static PokemonEntry[] ScrapeYourTeam()
+        static Pokemon[] ScrapeYourTeam()
         {
-            PokemonEntry[] ghee = new PokemonEntry[6] { new PokemonEntry(), new PokemonEntry(), new PokemonEntry(), new PokemonEntry(), new PokemonEntry(), new PokemonEntry()};
+            Pokemon[] ghee = new Pokemon[6] { new Pokemon(), new Pokemon(), new Pokemon(), new Pokemon(), new Pokemon(), new Pokemon()};
             for (int i = 2; i <= 3; i++)
             {
                 for (int j = 1; j <= 3; j++)
@@ -89,9 +90,9 @@ namespace PokemonBot2._0
             return ghee;
         }
 
-        static PokemonEntry[] ScrapeOppTeam()
+        static Pokemon[] ScrapeOppTeam()
         {
-            PokemonEntry[] ghee = new PokemonEntry[6] { new PokemonEntry(), new PokemonEntry(), new PokemonEntry(), new PokemonEntry(), new PokemonEntry(), new PokemonEntry() };
+            Pokemon[] ghee = new Pokemon[6] { new Pokemon(), new Pokemon(), new Pokemon(), new Pokemon(), new Pokemon(), new Pokemon() };
             for (int i = 2; i <= 3; i++)
             {
                 for (int j = 1; j <= 3; j++)
@@ -235,7 +236,7 @@ namespace PokemonBot2._0
             Thread.Sleep(2000);
         }
 
-        static public void GameLoop()
+        static public void SmeargleGameLoop()
         {
 
         }

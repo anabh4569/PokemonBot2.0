@@ -59,7 +59,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PokemonEntry.cs" />
+    <Compile Include="DataFiles\Pokemon.cs" />
+    <Compile Include="DataFiles\Type.cs" />
+    <Compile Include="DataFiles\Types\Bug.cs" />
+    <Compile Include="DataFiles\Types\Dark.cs" />
+    <Compile Include="DataFiles\Types\Dragon.cs" />
+    <Compile Include="DataFiles\Types\Electric.cs" />
+    <Compile Include="DataFiles\Types\Fairy.cs" />
+    <Compile Include="DataFiles\Types\Fighting.cs" />
+    <Compile Include="DataFiles\Types\Fire.cs" />
+    <Compile Include="DataFiles\Types\Flying.cs" />
+    <Compile Include="DataFiles\Types\Ghost.cs" />
+    <Compile Include="DataFiles\Types\Grass.cs" />
+    <Compile Include="DataFiles\Types\Ground.cs" />
+    <Compile Include="DataFiles\Types\Ice.cs" />
+    <Compile Include="DataFiles\Types\Normal.cs" />
+    <Compile Include="DataFiles\Types\Poison.cs" />
+    <Compile Include="DataFiles\Types\Psychic.cs" />
+    <Compile Include="DataFiles\Types\Rock.cs" />
+    <Compile Include="DataFiles\Types\Steel.cs" />
+    <Compile Include="DataFiles\Types\Water.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
