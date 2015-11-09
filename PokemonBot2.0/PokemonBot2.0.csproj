@@ -107,7 +107,7 @@
     <Compile Include="DataFiles\PokemonFiles\Heatran.cs" />
     <Compile Include="DataFiles\PokemonFiles\Heracross.cs" />
     <Compile Include="DataFiles\PokemonFiles\Hippowdon.cs" />
-    <Compile Include="DataFiles\PokemonFiles\Hoopa2.cs" />
+    <Compile Include="DataFiles\PokemonFiles\HoopaU.cs" />
     <Compile Include="DataFiles\PokemonFiles\Hydreigon.cs" />
     <Compile Include="DataFiles\PokemonFiles\Infernape.cs" />
     <Compile Include="DataFiles\PokemonFiles\Jirachi.cs" />

@@ -7,18 +7,18 @@ using PokemonBot2._0.DataFiles.Types;
 
 namespace PokemonBot2._0.DataFiles.PokemonFiles
 {
-    class Hoopa2 : Pokemon
+    class HoopaU : Pokemon
     {
-        public Hoopa2(double health, string status)
+        public HoopaU(double health, string status)
         {
-            name = "Hoopa2";
+            name = "HoopaU";
             type1 = new Flying();
             type2 = new Ground();
             Initialize(name, health, status);
-            maxSpeed = 309;
+            estimatedSpeed = 309; estimatedHealth = 309; estimatedAttack = 309; estimatedDefense = 309; estimatedSpAttk = 309; estimatedSpDef = 309;
         }
 
-        public Hoopa2() : this(0, "")
+        public HoopaU() : this(0, "")
         {
 
         }
@@ -41,12 +41,12 @@ namespace PokemonBot2._0.DataFiles.PokemonFiles
         }
 
         private List<Type> typing = new List<Type>();
-        private int maxSpeed;
+        private int estimatedSpeed; private int estimatedHealth; private int estimatedAttack; private int estimatedDefense; private int estimatedSpAttk; private int estimatedSpDef; public double EstimatedHealth { get { return estimatedHealth; } } public double EstimatedAttack { get { return estimatedAttack; } } public double EstimatedDefense { get { return estimatedDefense; } } public double EstimatedSpAttk { get { return estimatedSpAttk; } } public double EstimatedSpDef { get { return estimatedSpDef; } } public double EstimatedSpeed { get { return estimatedSpeed; } } 
         private List<Type> immune = new List<Type>();
         private Type type1;
         private Type type2;
         
-        public double MaxSpeed { get { return maxSpeed; } }
+        
 
         private List<Type> GetImmunities()
         {
