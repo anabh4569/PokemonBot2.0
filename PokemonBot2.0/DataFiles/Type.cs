@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PokemonBot2._0.DataFiles
 {
-    abstract class Type
+    class Type
     {
         public Type()
         {
@@ -15,12 +15,23 @@ namespace PokemonBot2._0.DataFiles
 
         public override string ToString()
         {
-            return this.GetType().ToString();
+            string dog = this.GetType().ToString();
+            return dog.Substring(dog.LastIndexOf(".") + 1);
         }
 
-        private string name;
-        public abstract List<Type> getWeaknesses();
-        public abstract List<Type> getResistances();
-        public abstract List<Type> getImmunities();
+        public virtual List<Type> getWeaknesses()
+        {
+            return new List<Type>();
+        }
+
+        public virtual List<Type> getResistances()
+        {
+            return new List<Type>();
+        }
+
+        public virtual List<Type> getImmunities()
+        {
+            return new List<Type>();
+        }
     }
 }

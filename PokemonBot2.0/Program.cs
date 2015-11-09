@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using PokemonBot2._0;
+using PokemonBot2._0.DataFiles;
+using PokemonBot2._0.DataFiles.PokemonFiles;
 using NUnit.Framework;
 using System.Threading;
 using OpenQA.Selenium;
@@ -20,13 +21,17 @@ namespace PokemonBot2._0
 
         static void Main(string[] args)
         {
+            Console.WriteLine(new Alakazam().GetWeaknesses());
+            /*
             using (driver = new ChromeDriver())
             {
-                Console.WriteLine();
+                Console.WriteLine();                
                 StartLoadAndFindOUGame();
                 SmeargleGameLoop();
                 Console.ReadLine();
             }
+            */
+            Console.ReadLine();
         }
 
         static Pokemon[] ScrapeYourTeam()
