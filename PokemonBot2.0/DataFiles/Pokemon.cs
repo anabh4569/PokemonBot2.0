@@ -28,6 +28,8 @@ namespace PokemonBot2._0.DataFiles
         protected Type type1;
         protected Type type2;
         protected int estimatedSpeed; protected int estimatedHealth; protected int estimatedAttack; protected int estimatedDefense; protected int estimatedSpAttk; protected int estimatedSpDef;
+        protected Move move1; protected Move move2; protected Move move3; protected Move move4;
+        protected List<Move> moves = new List<Move>();
 
         public double EstimatedHealth { get { return estimatedHealth; } }
         public double EstimatedAttack { get { return estimatedAttack; } }
@@ -35,10 +37,10 @@ namespace PokemonBot2._0.DataFiles
         public double EstimatedSpAttk { get { return estimatedSpAttk; } }
         public double EstimatedSpDef { get { return estimatedSpDef; } }
         public double EstimatedSpeed { get { return estimatedSpeed; } }
-
         public string Name { get { return name; } set { name = value; } }
         public double Health { get { return health; } set { health = value; } }
         public string Status { get { return status; } set { status = value; } }
+        public List<Move> Moves { get { return moves; } }
 
         public override string ToString()
         {
@@ -60,6 +62,10 @@ namespace PokemonBot2._0.DataFiles
                 typing.Add(type2);
             }
             immune = GetImmunities();
+            moves.Add(move1);
+            moves.Add(move2);
+            moves.Add(move3);
+            moves.Add(move4);
         }
 
         protected virtual List<Type> GetImmunities()

@@ -59,6 +59,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataFiles\Move.cs" />
+    <Compile Include="DataFiles\Moves\Flamethrower.cs" />
     <Compile Include="DataFiles\Pokemon.cs" />
     <Compile Include="DataFiles\PokemonFiles\Aerodactyl.cs" />
     <Compile Include="DataFiles\PokemonFiles\Alakazam.cs" />
