@@ -12,10 +12,10 @@ namespace PokemonBot2._0.DataFiles.Types
         {
             List<Type> weak = new List<Type>();
             weak.Add(new Ground());
-            weak.Add(new Rock());
             weak.Add(new Water());
             weak.Add(new Steel());
             weak.Add(new Grass());
+            weak.Add(new Fighting());
             return weak;
         }
 

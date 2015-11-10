@@ -21,7 +21,7 @@ namespace PokemonBot2._0
 
         static void Main(string[] args)
         {
-            Console.WriteLine(new Alakazam().GetWeaknesses());
+            Console.WriteLine(new Shuckle().GetWeaknesses());
             /*
             using (driver = new ChromeDriver())
             {
