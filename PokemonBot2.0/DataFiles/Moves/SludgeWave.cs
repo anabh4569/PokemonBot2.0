@@ -7,14 +7,14 @@ using PokemonBot2._0.DataFiles.Types; using PokemonBot2._0.DataFiles.Moves;
 
 namespace PokemonBot2._0.DataFiles.Moves
 {
-    class Flamethrower : Move
+    class SludgeWave : Move
     {
-        public Flamethrower()
+        public SludgeWave()
         {
             isStatus = false;
             isPhysical = false;
             power = 90;
-            name = "Flamethrower";
+            name = "SludgeWave";
             typing = new Fire();
             additionalEffects = "10% Burn";
             accuracy = 100;

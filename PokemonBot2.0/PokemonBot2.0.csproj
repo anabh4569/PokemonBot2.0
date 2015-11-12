@@ -76,6 +76,7 @@
     <Compile Include="DataFiles\Moves\CottonGuard.cs" />
     <Compile Include="DataFiles\Moves\Crabhammer.cs" />
     <Compile Include="DataFiles\Moves\Crunch.cs" />
+    <Compile Include="DataFiles\Moves\DazzlingGleam.cs" />
     <Compile Include="DataFiles\Moves\Defog.cs" />
     <Compile Include="DataFiles\Moves\DiamondStorm.cs" />
     <Compile Include="DataFiles\Moves\DracoMeteor.cs" />
@@ -86,6 +87,7 @@
     <Compile Include="DataFiles\Moves\DrainPunch.cs" />
     <Compile Include="DataFiles\Moves\EarthPower.cs" />
     <Compile Include="DataFiles\Moves\Earthquake.cs" />
+    <Compile Include="DataFiles\Moves\Encore.cs" />
     <Compile Include="DataFiles\Moves\Explosion.cs" />
     <Compile Include="DataFiles\Moves\ExtremeSpeed.cs" />
     <Compile Include="DataFiles\Moves\FireBlast.cs" />
@@ -131,7 +133,7 @@
     <Compile Include="DataFiles\Moves\PlayRough.cs" />
     <Compile Include="DataFiles\Moves\PowerUpPunch.cs" />
     <Compile Include="DataFiles\Moves\PowerWhip.cs" />
-    <Compile Include="DataFiles\Moves\Psychic.cs" />
+    <Compile Include="DataFiles\Moves\PsychicA.cs" />
     <Compile Include="DataFiles\Moves\Psyshock.cs" />
     <Compile Include="DataFiles\Moves\Pursuit.cs" />
     <Compile Include="DataFiles\Moves\QuickAttack.cs" />
@@ -163,6 +165,7 @@
     <Compile Include="DataFiles\Moves\SwordsDance.cs" />
     <Compile Include="DataFiles\Moves\Synthesis.cs" />
     <Compile Include="DataFiles\Moves\TailGlow.cs" />
+    <Compile Include="DataFiles\Moves\Taunt.cs" />
     <Compile Include="DataFiles\Moves\Thunderbolt.cs" />
     <Compile Include="DataFiles\Moves\ThunderWave.cs" />
     <Compile Include="DataFiles\Moves\Toxic.cs" />

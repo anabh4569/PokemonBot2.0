@@ -14,7 +14,18 @@ namespace PokemonBot2._0.DataFiles.PokemonFiles
             name = "Alakazam";
             type1 = new Psychic();
             
-            estimatedSpeed = 309; estimatedHealth = 309; estimatedAttack = 309; estimatedDefense = 309; estimatedSpAttk = 309; estimatedSpDef = 309; move1 = new Flamethrower(); move2 = new Flamethrower(); move3 = new Flamethrower(); move4 = new Flamethrower(); Initialize(name, health, status);
+            estimatedSpeed = 372;
+            estimatedHealth = 251;
+            estimatedAttack = 122;
+            estimatedDefense = 127;
+            estimatedSpAttk = 369;
+            estimatedSpDef = 226;
+            move1 = new PsychicA();
+            move2 = new ShadowBall();
+            move3 = new FocusBlast();
+            move4 = new DazzlingGleam();
+            Initialize(name, health, status);
+            item = "Life Orb";
         }
 
         public Alakazam() : this(100, "None")

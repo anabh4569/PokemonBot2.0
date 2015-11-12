@@ -29,6 +29,7 @@ namespace PokemonBot2._0.DataFiles
         protected Type type2;
         protected int estimatedSpeed; protected int estimatedHealth; protected int estimatedAttack; protected int estimatedDefense; protected int estimatedSpAttk; protected int estimatedSpDef;
         protected int attackboost = 0; protected int speedboost = 0; protected int spattkboost = 0; protected int defenseboost = 0; protected int spdefboost = 0; protected int critboost = 0;
+        protected string item;
         protected Move move1; protected Move move2; protected Move move3; protected Move move4;
         protected List<Move> moves = new List<Move>();
 
@@ -48,6 +49,7 @@ namespace PokemonBot2._0.DataFiles
         public double Health { get { return health; } set { health = value; } }
         public string Status { get { return status; } set { status = value; } }
         public List<Move> Moves { get { return moves; } set { moves = value; } }
+        public string Item { get { return item; } }
 
         public override string ToString()
         {

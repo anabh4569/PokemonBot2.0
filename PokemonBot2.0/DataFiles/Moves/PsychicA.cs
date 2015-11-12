@@ -7,14 +7,14 @@ using PokemonBot2._0.DataFiles.Types; using PokemonBot2._0.DataFiles.Moves;
 
 namespace PokemonBot2._0.DataFiles.Moves
 {
-    class ThunderWave : Move
+    class PsychicA : Move
     {
-        public ThunderWave()
+        public PsychicA()
         {
             isStatus = false;
             isPhysical = false;
             power = 90;
-            name = "ThunderWave";
+            name = "Psychic";
             typing = new Fire();
             additionalEffects = "10% Burn";
             accuracy = 100;

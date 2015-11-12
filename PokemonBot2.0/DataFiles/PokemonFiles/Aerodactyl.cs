@@ -15,7 +15,18 @@ namespace PokemonBot2._0.DataFiles.PokemonFiles
             type1 = new Flying();
             type2 = new Rock();
             
-            estimatedSpeed = 309; estimatedHealth = 309; estimatedAttack = 309; estimatedDefense = 309; estimatedSpAttk = 309; estimatedSpDef = 309; move1 = new Flamethrower(); move2 = new Flamethrower(); move3 = new Flamethrower(); move4 = new Flamethrower(); Initialize(name, health, status);
+            estimatedSpeed = 385;
+            estimatedHealth = 301;
+            estimatedAttack = 308;
+            estimatedDefense = 177;
+            estimatedSpAttk = 140;
+            estimatedSpDef = 186;
+            move1 = new AerialAce();
+            move2 = new IceFang();
+            move3 = new FireFang();
+            move4 = new StoneEdge();
+            Initialize(name, health, status);
+            item = "Aerodactylite";
         }
 
         public Aerodactyl() : this(100, "None")

@@ -15,7 +15,18 @@ namespace PokemonBot2._0.DataFiles.PokemonFiles
             type1 = new Flying();
             type2 = new Dragon();
             
-            estimatedSpeed = 309; estimatedHealth = 309; estimatedAttack = 309; estimatedDefense = 309; estimatedSpAttk = 309; estimatedSpDef = 309; move1 = new Flamethrower(); move2 = new Flamethrower(); move3 = new Flamethrower(); move4 = new Flamethrower(); Initialize(name, health, status);
+            estimatedSpeed = 259;
+            estimatedHealth = 291;
+            estimatedAttack = 262;
+            estimatedDefense = 217;
+            estimatedSpAttk = 158;
+            estimatedSpDef = 259;
+            move1 = new Roost();
+            move2 = new Return();
+            move3 = new Earthquake();
+            move4 = new DragonDance();
+            Initialize(name, health, status);
+            item = "Altarianite";
         }
 
         public Altaria() : this(100, "None")
