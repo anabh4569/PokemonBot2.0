@@ -28,6 +28,7 @@ namespace PokemonBot2._0.DataFiles
         protected Type type1;
         protected Type type2;
         protected int estimatedSpeed; protected int estimatedHealth; protected int estimatedAttack; protected int estimatedDefense; protected int estimatedSpAttk; protected int estimatedSpDef;
+        protected int attackboost = 0; protected int speedboost = 0; protected int spattkboost = 0; protected int defenseboost = 0; protected int spdefboost = 0; protected int critboost = 0;
         protected Move move1; protected Move move2; protected Move move3; protected Move move4;
         protected List<Move> moves = new List<Move>();
 
@@ -37,10 +38,16 @@ namespace PokemonBot2._0.DataFiles
         public double EstimatedSpAttk { get { return estimatedSpAttk; } }
         public double EstimatedSpDef { get { return estimatedSpDef; } }
         public double EstimatedSpeed { get { return estimatedSpeed; } }
+        public double AttackBoost { get { return attackboost; } set { attackboost = Convert.ToInt32(value); } }
+        public double SpeedBoost { get { return speedboost; } set { speedboost = Convert.ToInt32(value); } }
+        public double SpAttkBoost { get { return spattkboost; } set { spattkboost = Convert.ToInt32(value); } }
+        public double DefenseBoost { get { return defenseboost; } set { defenseboost = Convert.ToInt32(value); } }
+        public double SpDefBoost { get { return spdefboost; } set { spdefboost = Convert.ToInt32(value); } }
+        public double CritBoost { get { return critboost; } set { critboost = Convert.ToInt32(value); } }
         public string Name { get { return name; } set { name = value; } }
         public double Health { get { return health; } set { health = value; } }
         public string Status { get { return status; } set { status = value; } }
-        public List<Move> Moves { get { return moves; } }
+        public List<Move> Moves { get { return moves; } set { moves = value; } }
 
         public override string ToString()
         {

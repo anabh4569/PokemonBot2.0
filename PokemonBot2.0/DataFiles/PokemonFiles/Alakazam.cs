@@ -13,8 +13,8 @@ namespace PokemonBot2._0.DataFiles.PokemonFiles
         {
             name = "Alakazam";
             type1 = new Psychic();
-            Initialize(name, health, status);
-            estimatedSpeed = 309; estimatedHealth = 309; estimatedAttack = 309; estimatedDefense = 309; estimatedSpAttk = 309; estimatedSpDef = 309; move1 = new Flamethrower(); move2 = new Flamethrower(); move3 = new Flamethrower(); move4 = new Flamethrower();
+            
+            estimatedSpeed = 309; estimatedHealth = 309; estimatedAttack = 309; estimatedDefense = 309; estimatedSpAttk = 309; estimatedSpDef = 309; move1 = new Flamethrower(); move2 = new Flamethrower(); move3 = new Flamethrower(); move4 = new Flamethrower(); Initialize(name, health, status);
         }
 
         public Alakazam() : this(100, "None")
